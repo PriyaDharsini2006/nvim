@@ -1,11 +1,11 @@
 return {
   {
-    "catppuccin/nvim",
-    lazy = false,  -- Load immediately at startup
-    name = "catppuccin",
-    priority = 1000,  -- Load before other plugins
+    "nyoom-engineering/oxocarbon.nvim",
+    lazy = false, -- Load immediately at startup
+    name = "oxocarbon",
+    priority = 1000, -- Load before other plugins
     config = function()
-      vim.cmd.colorscheme("catppuccin")  -- Apply the color scheme
+      vim.cmd.colorscheme("oxocarbon") -- Apply the Oxocarbon color scheme-- Remove background from EndOfBuffer
     end,
     opts = {
       integrations = {
@@ -49,4 +49,3 @@ return {
     },
   },
 }
-
