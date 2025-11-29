@@ -4,7 +4,7 @@ return {
   opts = {
     editor = {
       client = "neovim",
-      tooltip = "Pon Raaj's Neovim",
+      tooltip = "Neovim",
     },
     display = {
       theme = "catppuccin",
